@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, id="logo");
+  }
+  
+  #logo {
+    height: 40px;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #5e3bee;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ff715b;
+  }
+  
+  /* Hero / Primeira seção */
+  section:first-of-type {
+    padding: 40px 20px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  section:first-of-type h1 {
+    font-size: 32px;
+    margin-top: 15px;
+    color: #5e3bee;
+  }
+  
+  section:first-of-type h3 {
+    font-size: 20px;
+    color: #444;
+  }
+  
+  section:first-of-type p {
+    margin: 20px 0;
+  }
+  
+  section:first-of-type button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #ff715b;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  section:first-of-type button:hover {
+    background-color: #e05e4c;
+  }
+  
+  section:nth-of-type(2) {
+    background-color: #f0f0ff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  section:nth-of-type(2) h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section:nth-of-type(2) ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  section:nth-of-type(2) li {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    width: 180px;
+  }
+  
+  .Viagem ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .Viagem button {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 10px;
+    width: 180px;
+    cursor: pointer;
+  }
+  
+  .Viagem img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .Viagem p {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+  }
+  
+  /* Etapas e viagem final */
+  section:nth-of-type(4) {
+    background-color: #fff;
+    padding: 40px 20px;
+  }
+  
+  section:nth-of-type(4) h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section:nth-of-type(4) ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section:nth-of-type(4) h3 {
+    font-size: 18px;
+    color: #5e3bee;
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  }
+    nav a {
+      margin: 5px 8px;
+    }
+  
+    .Viagem ul {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    section:nth-of-type(2) ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    .Navegação{
+      display: flex;
+      flex-direction:row;
+      align-items:center;
+      justify-content:center;
+      width: 10 rem;
+      height: 5rem;
+    }
+    .muei{
+      width: 430px;
+      max-width: 150%;
+    }
